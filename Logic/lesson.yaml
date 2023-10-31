@@ -143,7 +143,7 @@
     statement as c(TRUE, TRUE, TRUE) & c(TRUE, FALSE, FALSE). 
 
 - Class: cmd_question
-  Output: "Now we'll type the same expression except we'll use the `&&` operator. Type the expression TRUE && c(FALSE)."
+  Output: "Now we'll type similar expression except we'll use the `&&` operator. Type the expression TRUE && c(FALSE)."
   CorrectAnswer: "TRUE && c(FALSE)"
   AnswerTests: omnitest(correctExpr='TRUE && c(FALSE)')
   Hint: "As you'll see, the && version of AND works differently. Type: 
